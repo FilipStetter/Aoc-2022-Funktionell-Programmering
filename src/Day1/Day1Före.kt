@@ -6,7 +6,7 @@ class Day1före{
 
 
     fun sortDataPart1(): Int {
-        var maxSum = Int.MIN_VALUE
+        var maxSum = 0
         var currentSum = 0
 
         for (line in data) {
@@ -42,17 +42,6 @@ class Day1före{
                 currentSum += line.toInt()
             }
         }
-
-
-        if (topSums.size < 3) {
-            topSums.add(currentSum)
-        } else {
-            val minTopSum = topSums.minOrNull() ?: Int.MIN_VALUE
-            if (currentSum > minTopSum) {
-                topSums[topSums.indexOf(minTopSum)] = currentSum
-            }
-        }
-
 
         return topSums.sum()
     }
