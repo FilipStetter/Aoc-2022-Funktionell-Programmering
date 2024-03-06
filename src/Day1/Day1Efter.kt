@@ -1,6 +1,7 @@
 import java.io.File
 // Andvände mig utav denna källa https://medium.com/@inzuael/advent-of-code-2022-using-kotlin-3fec4c0b23c6
-// Mycket simplare och finare som använder sig utav bibliotek som Kotlin har för att lösa problemet. Och jag behöver inte skriva om hela functionen för part 1 och 2 som jag gjorde i Day1Före.
+// Mycket simplare och finare som lösning som använder sig utav en extension function och sedan functioner som redan finns i Kotlin.
+// Samt så löser jag part 1 och 2 utan att behöva skriva om hela functionen.
 
 
 
